@@ -20,7 +20,7 @@ const Contact = () => {
         </Section>
 
             <div className={'bg-primary flex flex-col items-center justify-center h-80 p-20 gap-8 mb-32'}>
-                    <h2 className={'text-white text-center text-4xl font-semibold'}>
+                    <h2 className={'text-white text-center text-4xl md:text-5xl font-semibold'}>
                         Interested in joining our team?
                     </h2>
 

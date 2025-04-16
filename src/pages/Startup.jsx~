@@ -8,7 +8,7 @@ const Startup = () => {
 
             <Section className={'bg-gray-100 mb-20 text-center'}>
                 <div className={'mt-24 space-y-5 mb-20 flex flex-col items-center px-10'}>
-                    <h1 className={'text-canter leading-tight max-md:text-3xl'}>
+                    <h1 className={'text-canter leading-tight '}>
                         Empowering Startups to Build, Scale, and Succeed
                     </h1>
 
