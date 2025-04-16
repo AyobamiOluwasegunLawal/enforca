@@ -14,7 +14,7 @@ const Footer = () => {
                                Discover, Develop, Deploy!
                            </h2>
 
-                           <p className={'text-gray-500 text-lg max-w-sm'}>
+                           <p className={'text-gray-500 text-md max-w-sm'}>
                                Developing products, apps and the teams to grow
                                them, so that you can grow the business.
                            </p>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <ul className={'text-black'}>
                     {
                         contact.map(c => (
-                            <li key={c.id} className={'text-xl text-gray-500 space-y-3'}>
+                            <li key={c.id} className={'text-md text-gray-500 space-y-3'}>
                                 <h2 className={'font-bold text-lg'}>{c.header}</h2>
                                 <div className={'space-y-2 '}>
                                     <p>{c.address}</p>

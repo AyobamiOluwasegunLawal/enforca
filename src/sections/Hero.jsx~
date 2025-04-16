@@ -31,7 +31,7 @@ const Hero = () => {
                         </p>
 
                         <div className={'flex flex-col justify-center sm:justify-start lg:justify-start gap-5 w-fit max-sm:mb-10'}>
-                            <p className={'text-primary font-bold text-left'}>
+                            <p className={'text-primary font-semibold text-left'}>
                                 Contact us to bring your ideas to reality
                             </p>
                             <FaArrowCircleDown className={'animate-bounce text-primary size-6 self-center'}/>
