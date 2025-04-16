@@ -7,7 +7,7 @@ const Impact = () => {
     return (
         <div  className={'bg-gray-100 py-20 mb-20 overflow-hidden'}>
             <section  className={'max-w-7xl mx-auto relative'}>
-                <div className={'overflow-hidden mb-5 px-10 '}>
+                <div className={'overflow-hidden mb-10 px-10 '}>
 
                    <div className={'flex flex-col-reverse flex-col md:flex-row justify-start md:gap-50 '}>
                        <div className={'basis-1/2 max-sm:mt-60'}>
