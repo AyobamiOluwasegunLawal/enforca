@@ -30,7 +30,7 @@ const Hero = () => {
                             We architect scalable apps, build high-performance teams, and accelerate product growth.
                         </p>
 
-                        <div className={'flex flex-col xs:flex-row xs:justify-center sm:justify-start lg:justify-start gap-5 max-sm:mb-10'}>
+                        <div className={'flex flex-col xs:flex-row justify-start lg:justify-start gap-5 max-sm:mb-10'}>
                             <Link to={'/Contact'} className={'px-9 py-3 font-bold rounded-full border-1 border-primary bg-primary text-white transition duration-100 ease-in text-black'}>Contact us</Link>
                         </div>
                     </div>
