@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from "../components/Section.jsx";
 import aboutImg from "../assets/aboutImg.webp";
+import {FaArrowCircleDown} from "react-icons/fa";
 
 const Startup = () => {
     return (
@@ -16,7 +17,17 @@ const Startup = () => {
                         Enforca Technologies partners with startups to turn bold ideas into powerful digital products—combining expert talent, real-world experience, and scalable solutions.
 
                     </p>
+
+                    <div className={'flex flex-col justify-center sm:justify-start lg:justify-start gap-5 w-fit max-sm:mb-10'}>
+                        <p className={'text-primary font-bold text-left'}>
+                            Contact us to bring your ideas to reality
+                        </p>
+                        <FaArrowCircleDown className={'animate-bounce text-primary size-6 self-center'}/>
+                        <a href="mailto:info@mentor-techies.com" className={'px-9 py-3 rounded-full sm:block self-center bg-primary font-bold text-white outline-none cursor-pointer w-fit'}>Send Email</a>
+                    </div>
                 </div>
+
+
             </Section>
         </section>
     )
