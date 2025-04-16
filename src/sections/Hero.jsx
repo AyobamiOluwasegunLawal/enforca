@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "./Header.jsx";
 import welcomeMan from "../assets/welcome-man-l3.png"
 import welcomeWoman from "../assets/welcome-woman-l3.png"
-import { FaArrowCircleDown } from "react-icons/fa";
+import {Link} from "react-router";
 
 const Hero = () => {
     return (
@@ -30,12 +30,8 @@ const Hero = () => {
                             We architect scalable apps, build high-performance teams, and accelerate product growth.
                         </p>
 
-                        <div className={'flex flex-col justify-center sm:justify-start lg:justify-start gap-5 w-fit max-sm:mb-10'}>
-                            <p className={'text-primary font-bold text-left'}>
-                                Contact us to bring your ideas to reality
-                            </p>
-                            <FaArrowCircleDown className={'animate-bounce text-primary size-6 self-center'}/>
-                            <a href="mailto:info@mentor-techies.com" className={'px-9 py-3 rounded-full sm:block self-center bg-primary font-bold text-white outline-none cursor-pointer w-fit'}>Send Email</a>
+                        <div className={'flex flex-col xs:flex-row xs:justify-center sm:justify-start lg:justify-start gap-5 max-sm:mb-10'}>
+                            <Link to={'/Contact'} className={'px-9 py-3 font-bold rounded-full border-1 border-primary bg-primary text-white transition duration-100 ease-in text-black'}>Contact us</Link>
                         </div>
                     </div>
                 </div>
