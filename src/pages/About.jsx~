@@ -28,7 +28,7 @@ const About = () => {
                            End-to-end digital product development experts.
                        </p>
 
-                       <h1 className={'max-md:text-3xl text-5xl'}>
+                       <h1 className={'max-w-md:text-3xl text-5xl'}>
                            Transforming Ideas into Powerful Digital Products
                        </h1>
 
