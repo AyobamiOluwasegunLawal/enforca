@@ -137,7 +137,7 @@ export const testimonials = [
     {
         id: nanoid(),
         client: "Dami",
-        comment:"Mentor Techies has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job. That also worked for me and that's worked for many others as well. And I'm very sure it's going to work for you too. Just give them a trial.",
+        comment:"Mentor Techies has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job.",
         star: "⭐⭐⭐⭐⭐",
         location: "UK"
     },

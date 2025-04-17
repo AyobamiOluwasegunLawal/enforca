@@ -22,7 +22,7 @@ const Client = () => {
                 </p>
 
                 <h2 className={'text-3xl md:text-4xl lg:text-5xl text-black font-bold max-w-xl text-center leading-tight mb-5'}>
-                    What our clients say
+                    Testimonials
                 </h2>
             </div>
             <Swiper

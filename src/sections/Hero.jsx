@@ -17,7 +17,7 @@ const Hero = () => {
 
                 <div className={'max-w-[1400px] mt-32 mx-auto lg:mt-40 xl:mt-52'}>
 
-                    <div className={'text-black px-4 flex flex-col   gap-7 xs:px-8 sm:max-w-xl sm:mx-auto lg:mx-0'}>
+                    <div className={'text-black px-4 flex flex-col gap-7 xs:px-8 sm:max-w-xl sm:mx-auto lg:mx-0'}>
                         <p className={'text-primary font-semibold text-left'}>
                             Ideate, Build, Launch
                         </p>
