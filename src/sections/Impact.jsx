@@ -9,7 +9,7 @@ const Impact = () => {
             <section  className={'max-w-7xl mx-auto relative'}>
                 <div className={'overflow-hidden mb-5 px-10 '}>
 
-                   <div className={'flex flex-col-reverse flex-col md:flex-row justify-start md:gap-50 '}>
+                   <div className={'flex flex-col md:flex-row justify-start md:gap-50 '}>
                        <div className={'basis-1/2 max-sm:mt-60'}>
                            <p className={'text-primary sm:mb-10 font-bold'}>
                                Where Quality meets Impact

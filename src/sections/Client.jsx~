@@ -58,7 +58,7 @@ const Client = () => {
                                            {testimonial.client}
                                        </p>
 
-                                       <span className={'text-sm'}>{testimonial.location}</span>
+                                       <span>{testimonial.location}</span>
                                    </div>
 
                                    <div className={'flex gap-2'}>
