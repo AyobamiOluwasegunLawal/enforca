@@ -26,7 +26,7 @@ const Client = () => {
                 </h2>
             </div>
 
-            <div className={' relative max-sm:max-w-sm bg-blue-100 h-fit p-10 max-w-2xl text-gray-700 mx-auto rounded-2xl mb-20 space-y-5 hover:bg-blue-700 hover:text-white transition ease-in-out duration-300'}>
+            <div className={' relative max-sm:max-w-sm bg-blue-100 p-10 max-w-2xl text-gray-700 mx-auto rounded-2xl mb-20 space-y-5 hover:bg-blue-700 hover:text-white transition ease-in-out duration-300'}>
                 <img src={geo} alt={'profile pic'} className={'absolute inset-0 -inset-y-10 inset-x-10'}/>
                <Swiper
                    navigation={true}

@@ -136,7 +136,14 @@ export const testimonials = [
     {
         id: nanoid(),
         client: "Dami",
-        comment:"I'm a BI developer finance analyst here in the UK. I'm making this video to talk about how Mentor Techies has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job. That also worked for me and that's worked for many others as well. And I'm very sure it's going to work for you too. Just give them a trial.",
+        comment:"I'm a BI developer finance analyst here in the UK. Mentor Techies has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job. That also worked for me and that's worked for many others as well. And I'm very sure it's going to work for you too. Just give them a trial.",
+        star: "⭐⭐⭐⭐"
+    },
+
+    {
+        id: nanoid(),
+        client: "Jedidia",
+        comment: "The session has been really insightful and motivating. I really appreciate the opportunity to enhance my experience by gaining access to the projects, the mentorship is also good",
         star: "⭐⭐⭐⭐"
     },
 ]
