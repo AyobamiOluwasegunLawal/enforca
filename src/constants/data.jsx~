@@ -145,7 +145,7 @@ export const testimonials = [
     {
         id: nanoid(),
         client: "Jedidia",
-        comment: "The session has been really insightful and motivating. I really appreciate the opportunity to enhance my experience by gaining access to the projects, the mentorship is also good",
+        comment: "The session has been really insightful and motivating. I really appreciate the opportunity to enhance my experience by gaining access to the projects, the mentorship is also good",
         star: "⭐⭐⭐⭐",
         location: "Kenya"
     },

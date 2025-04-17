@@ -25,27 +25,28 @@ const Client = () => {
                     In service of our clients
                 </h2>
             </div>
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={30}
+                pagination={true}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                    },
 
-            <div className={' relative max-sm:max-w-sm bg-blue-100 p-10 max-w-2xl text-gray-700 mx-auto rounded-2xl mb-20 space-y-5 hover:bg-blue-700 hover:text-white transition ease-in-out duration-300'}>
-                <img src={geo} alt={'profile pic'} className={'absolute inset-0 -inset-y-10 inset-x-10'}/>
-               <Swiper
-                   navigation={true}
-                   slidesPerView={1}
-                   spaceBetween={30}
-                   breakpoints={{
-                       640: {
-                           slidesPerView: 1,
-                           spaceBetween: 20,
-                       },
+                }}
+                modules={[Pagination]}
+                className="mySwiper"
+            >
 
-                   }}
-                   modules={[Pagination, Navigation]}
-                   className="mySwiper"
-               >
+
                    {
                        testimonials.map(testimonial => (
 
                            <SwiperSlide key={testimonial.id} className={'space-y-3 '}>
+            <div className={' relative max-sm:max-w-sm bg-blue-100 p-10 h-auto max-w-2xl text-gray-700 mx-auto rounded-2xl mb-20 space-y-5 hover:bg-blue-700 hover:text-white transition ease-in-out duration-300'}>
+                {/*<img src={geo} alt={'profile pic'} className={'absolute inset-0 -inset-y-10 inset-x-10'}/>*/}
                                <p >
                                    {testimonial.comment}
                                </p>
@@ -65,16 +66,12 @@ const Client = () => {
                                        {testimonial.star}
                                    </div>
                                </div>
+            </div>
                            </SwiperSlide>
                        ))
                    }
 
-               </Swiper>
-
-
-
-
-            </div>
+            </Swiper>
         </section>
     )
 }
